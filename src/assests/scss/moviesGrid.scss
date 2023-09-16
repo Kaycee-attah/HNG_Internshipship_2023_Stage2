@@ -1,0 +1,85 @@
+.moviesGrid-container {
+    position: absolute;
+    height: 1718px;
+    width: 93%;
+    top: 761px;
+    display: grid;
+    grid-template-rows: 1fr auto; 
+
+    .moviesGrid-wrapper {
+        
+        display: grid;
+        grid: 490px 490px 490px / 250px 250px 250px 250px;
+        grid-template-columns: auto auto auto auto;
+        gap: 120px 80px;
+        box-sizing: border-box;
+    }
+   
+//    background-color: black
+}
+
+@media (max-width: 1200px) {
+    .moviesGrid-container {
+       .moviesGrid-wrapper {
+            grid: 490px 490px 490px 490px / 250px 250px 250px;
+            grid-template-columns: auto auto auto;
+       } 
+           
+    }  
+}
+
+@media (max-width: 900px) {
+    .moviesGrid-container {
+       .moviesGrid-wrapper {
+            grid: 490px 490px 490px 490px / 250px 250px;
+            grid-template-columns: auto auto; 
+       } 
+          
+    }  
+}
+
+@media (max-width: 700px) {
+    .moviesGrid-container {
+       .moviesGrid-wrapper {
+            grid: 490px 490px 490px 490px 490px / 250px 250px;
+            grid-template-columns: auto auto;
+       } 
+           
+    }  
+}
+
+@media (max-width: 550px) {
+    .moviesGrid-container {
+       .moviesGrid-wrapper {
+            grid: auto auto auto auto auto / 250px;
+            grid-template-columns: auto;  
+        
+       } 
+        
+        // .moviecard-container {
+        //     width: auto;
+        //     .movieposter-wrapper {
+        //         width: 100%;
+        //         background: url('../images/moviecardposter.jpg'), lightgray 50% / cover; 
+        //     }
+        // }
+    }  
+}
+
+@media (max-width: 300px) {
+    .moviesGrid-container {
+       .moviesGrid-wrapper {
+
+       } 
+        grid: auto auto auto auto auto / 250px;
+        grid-template-columns: auto;  
+        
+        .moviecard-container {
+            width: auto;
+            .movieposter-wrapper {
+                width: 100%;
+                background: url('../images/moviecardposter.jpg'), lightgray 50% / cover; 
+            }
+        }
+    }  
+}
