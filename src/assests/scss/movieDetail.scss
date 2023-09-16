@@ -1038,17 +1038,8 @@
     
 }
 
-@media (max-width: 900px){
+@media (max-widtsh: 900px){
     .moviedetail-container {
-        display: grid;
-        grid-template-areas: 'sidebar trailer trailer trailer '
-        'sidebar details details details '
-        
-        ;
-        
-        gap: 10px;
-        // padding: 10px;
-        width: 100%;
     
         .sidebar-container {
             width: 60px;
@@ -1217,157 +1208,74 @@
             }
         }
 
-        .test {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: 130vh;
-        padding: 2px 0px;
-
+        .test { 
         
-        width: auto; 
-        
-        .trailer-container {
-            position: relative;
-            grid-area: trailer;
-            min-height: 75vh;
-            min-height: 75dvh;
-            border-radius: 20px;
-            width: 190%;
-            // left: 0.091%;
-                right: 60%;
+            .trailer-container {
+                position: relative;
+                grid-area: trailer;
+                min-height: 75vh;
+                min-height: 75dvh;
+                border-radius: 20px;
+                width: 190%;
+                // left: 0.091%;
+                    right: 60%;
 
-            iframe {
-                position: absolute;
-                // top: 80px;
-                left: 0.091%;
-                right: 90%;
-            }
-           
-        }
-
-        .moviedetails-wrapper {
-            grid-area: details;
-            min-height: 50vh;
-            min-height: 50dvh;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-    
-            .sect_1 {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                // width: 70%;
-    
-                .title_description-wrapper {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    align-items: center;
-                    height: 150px;
-    
-                    .title-wrapper {
-                        
-                        left: 18%;  
-                       
-                             
-                    }
-    
-                    .description-wrapper {
-                        left: 18%;
-                        width: 60%;
-                    }
-    
-                    
-                }
-    
-                .starrs_directors-wrapper {
-                    left: 18%;
-                    top: 75%;
-                }
-    
-                .toprated_awards-wrapper {
-                    left: 15%;
-                    top: 95%; 
-                }
-            }
-    
-            .sect_2 {
-                // width: 30%;
-                
-                
-                .fav_btns-wrapper {
-                    top: 55%;
-                    left: 80%;
-                }
-    
-                .othermovies-wrapper {
+                iframe {
                     position: absolute;
-                    width: 360px;
-                    height: 229px;
-                    flex-shrink: 0;
-                    top: 82%;
-                    left: 80%;
-                    border-radius: 10px;
-    
-                    border-radius: 10px;
-                    background: url('../images/rectangle-37.jpg'), lightgray 50% / cover no-repeat;
-    
-                    .info_ {
-                        position: absolute;
-                        display: flex;
-                        justify-content: space-around;
-                        align-items: center;
-                        width: 360px;
-                        height: 42px;
-                        flex-shrink: 0;  
-                        border-radius: 10px;
-                        background: rgba(18, 18, 18, 0.50);
-                        backdrop-filter: blur(2px);
-                        // top: 229px;
-                        bottom: 0;
-                        left: 0;
-                        border-radius: 10px;
-    
-                        .more_watch_options-icon {
-                            // position: absolute;
-                            display: flex;
-    
-                            width: 23px;
-                            height: 23px;
-                            flex-shrink: 0;
-                            top: 931px;
-                            left: 1097px;
-                            background: url('../images/list.jpg'), lightgray 50% / cover no-repeat;
-                            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25); 
-                            margin: 2px 8px; 
+                    // top: 80px;
+                    left: 0.091%;
+                    right: 90%;
+                }
+            
+            }
+
+            .moviedetails-wrapper {
+        
+                .sect_1 {
+        
+                    .title_description-wrapper {
+        
+                        .title-wrapper {
+                            
+                            left: 18%;  
+                        
+                                
                         }
-    
-    
-                        .text {
-                            width: 292px;
-                            height: 21px;
-                            top: 932px;
-                            left: 1132px;
-    
-                            line-height: 21px;
-                            letter-spacing: 0em;
-    
-                            color: #E8E8E8;
-                            text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
-                            font-family: Poppins;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: normal; 
+        
+                        .description-wrapper {
+                            left: 18%;
+                            width: 60%;
                         }
-                         
+        
+                        
+                    }
+        
+                    .starrs_directors-wrapper {
+                        left: 18%;
+                        top: 75%;
+                    }
+        
+                    .toprated_awards-wrapper {
+                        left: 15%;
+                        top: 95%; 
+                    }
+                }
+        
+                .sect_2 {
+                    // width: 30%;
+                    
+                    
+                    .fav_btns-wrapper {
+                        top: 55%;
+                        left: 80%;
+                    }
+        
+                    .othermovies-wrapper {
+                        top: 82%;
+                        left: 80%;
                     }
                 }
             }
         }
-    }
     }
 }

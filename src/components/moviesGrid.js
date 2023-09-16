@@ -4,7 +4,8 @@ import Footer from './footer'
 import { Link } from 'react-router-dom'
 let API_KEY = "&api_key=4c2de6d8ecde71a2efa8308d93eb3678"
 let base_url = "https://api.themoviedb.org/3"
-let url = base_url+"/movie/popular?language=en-US&page=1"+API_KEY
+// https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1
+let url = base_url+"/movie/top_rated?language=en-US&page=1"+API_KEY
 let url_genre = "https://api.themoviedb.org/3/genre/movie/list?language=en"
 
 // "https://api.themoviedb.org/3/genre/movie/list?language=en"
@@ -55,7 +56,7 @@ export default function MoviesGrid({films}) {
     }
 
     const shuffled_Array = shuffle(films)
-    const top_10 = shuffled_Array.slice(0, 10)
+    const top_10 = films.slice(0, 10)
 
   return (
     <div className='moviesGrid-container'>
