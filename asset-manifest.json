@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HNG_Internshipship_2023_Stage2/static/css/main.9a964622.css",
+    "main.css": "/HNG_Internshipship_2023_Stage2/static/css/main.7e31857f.css",
     "main.js": "/HNG_Internshipship_2023_Stage2/static/js/main.184861da.js",
     "static/js/787.59532e9e.chunk.js": "/HNG_Internshipship_2023_Stage2/static/js/787.59532e9e.chunk.js",
     "static/media/poster.jpg": "/HNG_Internshipship_2023_Stage2/static/media/poster.c396a1f097b412d550e0.jpg",
@@ -8,12 +8,12 @@
     "static/media/rectangle-37.jpg": "/HNG_Internshipship_2023_Stage2/static/media/rectangle-37.56e874a0ddcb1fce2998.jpg",
     "index.html": "/HNG_Internshipship_2023_Stage2/index.html",
     "static/media/icons-search.svg": "/HNG_Internshipship_2023_Stage2/static/media/icons-search.a7db52884a8d37e868a32bd1edf86088.svg",
-    "main.9a964622.css.map": "/HNG_Internshipship_2023_Stage2/static/css/main.9a964622.css.map",
+    "main.7e31857f.css.map": "/HNG_Internshipship_2023_Stage2/static/css/main.7e31857f.css.map",
     "main.184861da.js.map": "/HNG_Internshipship_2023_Stage2/static/js/main.184861da.js.map",
     "787.59532e9e.chunk.js.map": "/HNG_Internshipship_2023_Stage2/static/js/787.59532e9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a964622.css",
+    "static/css/main.7e31857f.css",
     "static/js/main.184861da.js"
   ]
 }
